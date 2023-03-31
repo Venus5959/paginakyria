@@ -1,0 +1,36 @@
+.card2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+.card4{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.cartas{
+    width: 60%;
+    color: #fff;
+    margin: 20px;
+    box-shadow: 10px 5px 5px black;
+    /* max-width: 150px; */
+}
+
+.cartas img {
+    width: 110px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .cartas {
+        max-width: 150px;
+    }
+}

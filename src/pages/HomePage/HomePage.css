@@ -1,0 +1,105 @@
+
+.carousel{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .7;
+    transition: opacity .15s ease;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.textoinicial{ 
+    text-align: center;
+    padding: 13vh;
+    color: #fff;
+    margin-top: 3vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    padding: 8vh;
+    color: #fff;
+    margin-top: 3vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.personajes{
+    width: 100%; 
+}
+
+.personajes div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.img_personajes{
+    max-width: 250px;
+    width: 30%;
+    margin: 20px;
+}
+
+.vermas{
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+    width: 100%;
+}
+
+.botonvermas{
+    background-color: rgb(244, 154, 90);
+    border: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: #fff;
+    padding: 1vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.cardquienes{
+    width: 60%;
+    margin: 2vh;
+    color: #fff;
+    box-shadow: 10px 5px 5px black;
+}
+
+.cardreferentes{
+    width: 60%;
+    margin: 2vh;
+    color: #fff;
+    box-shadow: 10px 5px 5px black;
+}
+
+
+
+.cardind{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vh;
+    padding: 5vh;
+}
+
+
